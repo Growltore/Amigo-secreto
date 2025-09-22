@@ -1,0 +1,34 @@
+# 🎉 Amigo Secreto – Challenge Alura Latam & ONE
+
+Este proyecto es una aplicación web sencilla para jugar al amigo secreto con tus amigos, es divertida y didactica ademas que fue desarrollada como proyecto final de el curso oracle one 2025
+---
+
+## 📋 Descripción
+
+La aplicación cumple con los siguientes requisitos del challenge:
+
+1. **Array para almacenar nombres**: los amigos se guardan en un arreglo de JavaScript.
+2. **Agregar nombres**: el usuario puede escribir un nombre en un campo de texto y añadirlo con un botón o presionando Enter.
+   - Si el campo está vacío, se muestra una alerta pidiendo un nombre válido.
+   - No se permiten nombres duplicados.
+3. **Visualización de la lista**: los nombres se muestran en pantalla como elementos `<li>` dentro de una lista HTML.
+   - La lista se limpia con `innerHTML = ""` antes de volver a pintarse, evitando duplicados visuales.
+4. **Sorteo aleatorio**: al presionar el botón *Sortear Amigo*, se selecciona un nombre aleatorio de la lista y se muestra en pantalla.
+   - Si no hay nombres cargados, aparece un mensaje de advertencia.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **HTML5** → estructura del proyecto.
+- **CSS3** → estilos y diseño visual.
+- **JavaScript (Vanilla)** → lógica de la aplicación.
+
+No requiere frameworks ni librerías externas.
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Growltore/Amigo-secreto
+
